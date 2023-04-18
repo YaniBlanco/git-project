@@ -1,0 +1,16 @@
+.header {
+background-color: #AFEEEE ;
+  color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+}
+.header-logo {
+  filter: brightness (1.1);
+  mix-blend-mode: multiply;
+  position:relative;
+  top:40px;
+  
+ }

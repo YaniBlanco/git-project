@@ -1,0 +1,30 @@
+.nav-bar {
+    display: flex;
+    gap: 20px;
+    max-width: 100vw;
+    margin-right: 50px;
+    display:inline-flex;
+    
+  }
+  .nav-bar a:hover {
+    background-color: #8ed4d8;
+    transition: background-color 0.5s ease-out;
+  }
+  .boton-buscar {
+    background-color: #40E0D0;
+    font-size: 18px; 
+    padding: 10px 10px; 
+    width: 270px;
+    cursor: pointer; 
+    margin-bottom: 20px;
+  
+  }
+  .button {
+     font-family: 'Montserrat Alternates', sans-serif;
+     font-family: 'Quicksand', sans-serif;
+  }
+ .item-nav{
+  margin: 0.10px;
+  font-size:20px;
+ 
+ }

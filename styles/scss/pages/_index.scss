@@ -1,0 +1,108 @@
+.imagen-bienvenida img {
+    width: 100vw; 
+    height: auto;
+
+}
+.titulo-novedad-mes {
+    background-color: rgb(158, 221, 219);
+    font-size: 30px;
+    color: rgb(114, 134, 138);
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.grilla-portada {
+    background-color: rgb(219, 235, 235);
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.img-novedad-mes {
+    display: flex;    
+    height:300px;
+    width: 316px;
+    justify-content: center;
+    text-align: center;
+}
+.img-novedad{
+display: flex;    
+height:300px;
+width: 316px;
+justify-content: center;
+text-align: center;
+}
+.texto-novedad {
+    overflow: hidden;
+    text-align: justify;
+    justify-content: center;
+    height:320px;
+    width: 316px;
+   
+}
+.novedad-titulo{
+text-align: center;
+}
+.contenedor-video {
+   
+height:300px;
+width: 316px;
+position: relative;
+justify-content: center;
+align-items: center;
+
+}
+
+.”video-youtube” {
+display: flex; 
+width: 100%;   
+height: 100%;
+justify-content: center;
+text-align: center;
+}
+
+    
+ 
+.video-youtube iframe,
+.video-youtube object,
+.video-youtube embed {
+position: absolute;
+top: 0;
+left: 0;
+right: 0%;
+bottom: 0%;
+width: 100%;
+height: 100%;
+}
+.productos-portada {
+    background-color: rgb(233, 220, 236);
+    width: 100%;
+    font-size: 20px;
+    color: rgb(36, 81, 87);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+   
+}
+.titulo-los-mas-elegidos{
+     background-color: rgb(206, 189, 221);
+     font-size: 30px;
+     color:rgb(114, 134, 138);;
+     padding: 20px;
+     text-align: center;
+     width: 100%;
+    
+}
+
+.titulo-categorias {
+    background-color: rgb(158, 221, 219);
+    font-size: 30px;
+    color: rgb(114, 134, 138);
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    }
+
