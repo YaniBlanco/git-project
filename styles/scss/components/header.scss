@@ -1,16 +1,32 @@
 .header {
-background-color: #AFEEEE ;
-  color: black;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
+  width: 100vw;
+  height: 200px;
+  background-color: #AFEEEE ; 
+  display: table;
+  justify-content:baseline;
   align-items: baseline;
+  margin: 0 auto;
   
 }
-.header-logo {
+.header-logo img{
+  width: 250px;
+  height: 100px;
   filter: brightness (1.1);
-  mix-blend-mode: multiply;
-  position:relative;
-  top:40px;
+  mix-blend-mode: multiply ;
+  display:flex;
+  margin-left: 80px;
   
  }
+
+ @media (min-width:400px)  and (max-width: 768px){
+.header-logo img{
+  width: 200px;
+  height: 80px;
+  float: center;
+margin-left: 100px;
+  
+}
+}
+
+
+
