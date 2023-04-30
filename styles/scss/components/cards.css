@@ -15,11 +15,11 @@
 }
 
 .contenedor-tarjetas .tarjeta1 {
-  background-color: rgb(211, 194, 221);
-  width: 280px;
-  height: 450px;
+  background-color: rgb(197, 209, 174);
+  width: 230px;
+  height: 430px;
   border: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(97, 104, 58, 0.2);
   overflow: hidden;
   text-align: center;
   transition: all 0.25s ease;
@@ -32,8 +32,8 @@
 }
 
 .contenedor-tarjetas .tarjeta1 img {
-  width: 280px;
-  height: 280px;
+  width: 100%;
+  height: 250px;
   margin-bottom: 20px;
 }
 
@@ -42,9 +42,12 @@
 }
 
 .contenedor-tarjetas .tarjeta1 a {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
   font-weight: 700;
   text-decoration: none;
-  color: rgb(202, 102, 206);
+  color: rgb(109, 126, 94);
   display: inline-block;
   padding: 10px;
   margin-top: 30px;
@@ -54,32 +57,25 @@
 }
 
 .tarjeta1 a:hover {
-  background-color: rgb(194, 114, 231);
-  color: #e9cfe9;
-}
-
-.categorias {
-  width: 100%;
-  background-color: rgb(176, 221, 221);
-  font-size: 30px;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  margin-top: 10px;
+  background-color: rgb(231, 235, 217);
+  color: #838b34;
 }
 
 .explora-nuestras-categorias {
-  width: 100%;
+  width: 100vw;
+  height: auto;
   background-color: rgb(201, 214, 214);
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(63, 70, 68);
   text-align: center;
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-categorias {
   width: 100vw;
-  height: 550px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -130,4 +126,75 @@
 .categoria1 a:hover {
   background-color: rgb(91, 177, 177);
   color: #faf7fc;
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  .contenedor-tarjetas {
+    width: 100vw;
+    height: auto;
+  }
+  .contenedor-tarjetas .tarjeta1 {
+    flex-wrap: wrap;
+    width: 140px;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .contenedor-tarjetas .tarjeta1 img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+  .contenedor-tarjetas .tarjeta1 h4 {
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin: -10px;
+  }
+  .contenedor-tarjetas .tarjeta1 a {
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 20px;
+    text-decoration: none;
+    color: rgb(78, 128, 49);
+    display: inline-block;
+    padding: 1px;
+    margin-top: 35px;
+    margin: 15px;
+  }
+  .contenedor-categorias {
+    width: 100vw;
+    height: auto;
+  }
+  .contenedor-categorias .categoria1 {
+    flex-wrap: wrap;
+    width: 140px;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .contenedor-categorias .categoria1 img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+  .contenedor-categorias .categoria1 h4 {
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin: -10px;
+  }
+  .contenedor-categorias .categoria1 a {
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 20px;
+    text-decoration: none;
+    color: rgb(78, 128, 49);
+    display: inline-block;
+    padding: 1px;
+    margin-top: 35px;
+    margin: 15px;
+  }
 }/*# sourceMappingURL=cards.css.map */
