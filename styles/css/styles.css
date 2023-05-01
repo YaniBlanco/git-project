@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -298,14 +297,19 @@ h1 {
 .video-novedad {
   width: 516px;
   height: 300px;
-  justify-content: center;
-  align-items: center;
 }
 
 .contenedor-video {
   height: 300px;
-  width: 316px;
-  position: relative;
+  width: 516px;
+  position: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-novedad1 {
+  width: 100%;
+  height: 300px;
   justify-content: center;
   align-items: center;
 }
@@ -350,21 +354,16 @@ h1 {
     height: auto;
     margin-bottom: -10px;
   }
-  .video-novedad {
+  .video-novedad1 {
     width: 100vw;
-    height: 200px;
-    margin-left: -120px;
+    height: 243px;
+    margin-top: 28px;
   }
   .novedad-portada {
     width: 100vw;
     height: 250px;
     align-items: center;
     justify-content: center;
-  }
-  .”video-youtube” {
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
   }
   .img-novedad-mes {
     display: none;
@@ -495,7 +494,7 @@ nav ul li {
 
 .contenedor-tarjetas {
   width: 90%;
-  max-width: 1240px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   display: grid;
@@ -564,15 +563,14 @@ nav ul li {
 }
 
 .contenedor-categorias {
-  width: 100vw;
-  height: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-  overflow: hidden;
-  flex-direction: row;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
 }
 
 .categoria1 {
@@ -632,11 +630,11 @@ nav ul li {
     height: auto;
     justify-content: center;
     text-align: center;
-    margin-left: 40px;
+    margin: 20px;
   }
   .contenedor-tarjetas .tarjeta1 img {
     width: 100%;
-    height: 160px;
+    height: 180px;
     margin-bottom: 20px;
   }
   .contenedor-tarjetas .tarjeta1 h4 {
@@ -659,12 +657,15 @@ nav ul li {
   .contenedor-categorias {
     width: 100vw;
     height: auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
   .contenedor-categorias .categoria1 {
-    flex-wrap: wrap;
-    width: 140px;
+    width: 160px;
     height: auto;
-    margin: 10px;
+    margin: 20px;
     justify-content: center;
     text-align: center;
   }
