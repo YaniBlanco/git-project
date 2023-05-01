@@ -3,16 +3,19 @@
 .productos-portada{
   width: 100%;
 }
-.contenedor-tarjetas{
-  width: 100vw;
-  height: 500px;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  justify-content:space-evenly;
-  overflow: hidden;
-  flex-direction: row ;
+.contenedor-tarjetas {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px;
+  display:grid;
+ 
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+ 
+ 
 }
 
 
@@ -141,7 +144,7 @@
         
   }
   .categoria1 a:hover{
-    background-color: rgb(91, 177, 177);
+    background-color: rgb(58, 94, 94);
     color: #faf7fc;
   
   }
@@ -152,15 +155,19 @@
     .contenedor-tarjetas {
       width: 100vw;
       height: auto;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
     }    
     
 .contenedor-tarjetas .tarjeta1{
-  flex-wrap: wrap;
-  width: 140px;
+  
+  width: 170px;
   height: auto;
-  margin: 10px;
   justify-content: center;
   text-align: center;
+  margin-left: 40px;
   
   }
 

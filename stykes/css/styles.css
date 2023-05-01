@@ -352,12 +352,11 @@ h1 {
   }
   .video-novedad {
     width: 100vw;
-    height: 200px;
-    margin-left: -120px;
+    height: 300px;
   }
-  .novedad-portada {
+  .contenedor-video {
     width: 100vw;
-    height: 250px;
+    height: auto;
     align-items: center;
     justify-content: center;
   }
@@ -494,12 +493,10 @@ nav ul li {
 }
 
 .contenedor-tarjetas {
-  width: 90%;
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 20px;
+  width: 100vw;
+  height: 500px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
 }
@@ -622,17 +619,14 @@ nav ul li {
   .contenedor-tarjetas {
     width: 100vw;
     height: auto;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
   }
   .contenedor-tarjetas .tarjeta1 {
-    width: 170px;
+    flex-wrap: wrap;
+    width: 140px;
     height: auto;
+    margin: 10px;
     justify-content: center;
     text-align: center;
-    margin-left: 40px;
   }
   .contenedor-tarjetas .tarjeta1 img {
     width: 100%;
