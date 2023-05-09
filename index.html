@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Quicksand:wght@300&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5116a1e228.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/css/styles.css">
   <title>GIFT STORE CBA</title>
 
@@ -19,22 +20,22 @@
 
 <body>
 
-    <header id="inicio" class="header">
-      <h1 display: hidden >belleza y cosmética</h1>
-      <div class="header-logo">
-        <img src="./img/logo.png" alt="logo de la empresa">
-        
-      
-      </div>
-      
-      <form action="buscar.php" class="boton-buscar">
-        <input class="search" type="text" name="q" placeholder="Buscar...">
-        <button class="button" type="submit">Buscar</button>
-      </form>
-      
+  <header id="inicio" class="header">
+    <h1 class="titulo-pagina">GIFT STORE</h1>
+
+    <form action="buscar.php" class="boton-buscar">
+      <input class="search" type="text" name="q" placeholder="Buscar...">
+      <button class="button" type="submit">Buscar</button>
+    </form>
+    <div class="iconos-header">
+      <i id="mi cuenta" class="fa-solid fa-user">
+      </i>
+      <i id="mi carrito" class="fa-solid fa-cart-shopping">
+      </i>
+    </div>
 
     <nav>
-      
+
       <ul class="nav-bar">
         <li class="item-nav"><a href="./index.html">Inicio</a></li>
         <li class="item-nav"><a href="./pages/desktop-fragancias.html">Fragancias</a></li>
@@ -42,133 +43,137 @@
         <li class="item-nav"><a href="./pages/desktop-cuidado-personal.html">Cuidado personal</a></li>
         <li class="item-nav"><a href="./pages/desktop-gift-sets.html">Gift sets</a></li>
       </ul>
-      
+
     </nav>
-    
 
-    </header>
 
-    <main>
-      <section class="carr-bienvenida">
-        
-        <div class="imagen-bienvenida">
+  </header>
+
+  <main>
+    <section class="carr-bienvenida">
+
+      <div class="imagen-bienvenida">
         <img src="./img/Diseño sin título (5).png" alt="imagen-bienvenida">
-        </div>
-      </section>
-      
-      <div class="titulo-novedad-mes">Novedad del mes</div>
+      </div>
+    </section>
 
-      <section class="novedad-portada">
+    <div class="titulo-novedad-mes">Novedad del mes</div>
 
-        <fig class="img-novedad-mes">
-          <img src="./img/novedad1.png" alt="Esta es la novedad del mes" class="img-novedad">
-        </fig>
+    <section class="producto-novedad-portada">
 
-        <article class="texto-novedad">
+
+      <article class="texto-novedad">
         <h2 class="novedad-titulo">HYALURONIC 4D FACE CREAM</h2>
         <h3>Crema facial hidratante con efecto relleno. Su textura fresca y liviana la hace ideal para todos los tipos
           de piel.</h3>
         <h4>Fórmulado con un activo que combina cuatro moléculas diferentes de ácido hialurónico que actúan en distintos
           niveles. Protege el estrato córneo, brinda hidratación y tiene efecto relleno. Forma un film sobre la
           superficie de la piel que retiene la humedad y la protege de la pérdida de agua.</h4>
-        </article>
+      </article>
 
-        <fig class="video-novedad">
+      <fig class="video-novedad">
         <div class="contenedor-video">
-            <video class="video-novedad1" src="./videos/4d.mp4"  autoplay="autoplay "  loop muted>
-        </div>
-        
-        </fig>
-      </section>
-    </main>
-
-
-    <section class="productos-portada">
-      <div class="titulo-los-mas-elegidos">Los más elegidos</div>
-      <div class="contenedor-tarjetas">
-
-        <div class="tarjeta1" >
-          <img src="./img/1.png" class="img-tarj">
-          <h4>Loción micelar 3D </h4>
-          <a ref="#">Comprar</a>
+          <video class="video-novedad1" src="./videos/4d.mp4" autoplay="autoplay " loop muted>
         </div>
 
-        <div class="tarjeta1">
-          <img src="./img/12.png" class="img-tarj">
-          <h4>Limpieza facial</h4>
-          <a ref="#">Comprar</a>
-        </div>
-
-        <div class="tarjeta1">
-          <img src="./img/7.png" class="img-tarj">
-          <h4>Radian C Serum</h4>
-          <a ref="#">Comprar</a>
-        </div>
-
-        <div class="tarjeta1" >
-          <img src="./img/crema_piel_joven_grasa_hidratante1.jpg" class="img-tarj">
-          <h4>Crema facial</h4>
-          <a ref="#">Comprar</a>
-        </div>
-
-      </div>
-
+      </fig>
     </section>
+  </main>
 
-    <section class="explora-nuestras-categorias">
-      <div class="titulo-categorias">Explorá nuestras categorías</div>
-      <div class="contenedor-categorias">
 
-        <div class="categoria1">
-          <img src="./img/fragancias1.jpg">
-          <h4>Fragancias</h4>
-          <a ref="#">Visitar</a>
-        </div>
+  <section class="seccion-elegidos">
+    <div class="titulo-los-mas-elegidos">Los más elegidos</div>
+    <div class="contenedor-tarjetas">
 
-        <div class="categoria1">
-          <img src="./img/cosmetics.jpg">
-          <h4>Cosmética</h4>
-          <a ref="#">Visitar</a>
-        </div>
-
-        <div class="categoria1">
-          <img src="./img/cuidado-personal1.jpg">
-          <h4>Cuidado Personal</h4>
-          <a ref="#">Visitar</a>
-        </div>
-
-        <div class="categoria1">
-          <img src="./img/set-cosmetics.jpg">
-          <h4>Gift Sets</h4>
-          <a ref="#">Visitar</a>
-        </div>
+      <div class="tarjeta1">
+        <img src="./img/1.png" class="img-tarj">
+        <h4>Loción micelar 3D </h4>
+        <a ref="#">Comprar</a>
       </div>
-    </section>
 
-    <footer class="footer">
-      <div class="footer-box">
-        <div class="footer-titulos">
-          <h3>Nuestro Sitio</h3>
-            <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Fragancias</a></li>
-              <li><a href="#">Cosmética</a></li>
-              <li><a href="#">Cuidado Personal</a></li>
-              <li><a href="#">Gift Sets</a></li>
-            </ul>
-        </div>
-        <div class="footer-titulos">
-          <h3>Escribinos por WhatsApp </h3>
-            <p>+549-3512877030<br>Estamos en Cordoba Capital</p>
-        </div>
-          
+      <div class="tarjeta1">
+        <img src="./img/12.png" class="img-tarj">
+        <h4>Limpieza facial</h4>
+        <a ref="#">Comprar</a>
       </div>
-        <div class="footer-derechos">
-          <h3>Derechos de autor</h3>
-          <p>© 2023 Todos los derechos reservados</p>
-        </div>
-      
-    </footer>
+
+      <div class="tarjeta1">
+        <img src="./img/7.png" class="img-tarj">
+        <h4>Radian C Serum</h4>
+        <a ref="#">Comprar</a>
+      </div>
+
+      <div class="tarjeta1">
+        <img src="./img/crema_piel_joven_grasa_hidratante1.jpg" class="img-tarj">
+        <h4>Crema facial</h4>
+        <a ref="#">Comprar</a>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="banner-promo">
+
+    <div class="promo">
+      <img src="./img/no te pierdas estas promos.png" alt="promo-dia-de-la-madre">
+     </div>
+
+  </section>
+
+  <section class="explora-nuestras-categorias">
+    <div class="titulo-categorias">Explorá nuestras categorías</div>
+    <div class="contenedor-categorias">
+
+      <div class="categoria1">
+        <img src="./img/fragancias1.jpg">
+        <h4>Fragancias</h4>
+        <a ref="#">Visitar</a>
+      </div>
+
+      <div class="categoria1">
+        <img src="./img/cosmetics.jpg">
+        <h4>Cosmética</h4>
+        <a ref="#">Visitar</a>
+      </div>
+
+      <div class="categoria1">
+        <img src="./img/cuidado-personal1.jpg">
+        <h4>Cuidado Personal</h4>
+        <a ref="#">Visitar</a>
+      </div>
+
+      <div class="categoria1">
+        <img src="./img/set-cosmetics.jpg">
+        <h4>Gift Sets</h4>
+        <a ref="#">Visitar</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-box">
+      <div class="footer-sitio">
+        <h3>Nuestro Sitio</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Fragancias</a></li>
+          <li><a href="#">Cosmética</a></li>
+          <li><a href="#">Cuidado Personal</a></li>
+          <li><a href="#">Gift Sets</a></li>
+        </ul>
+      </div>
+      <div class="footer-escribinos">
+        <h3>Escribinos por WhatsApp </h3>
+        <p>+549-3512877030<br>Estamos en Córdoba Capital</p>
+      </div>
+
+
+      <div class="footer-derechos">
+        <h3>Derechos de autor</h3>
+        <p>© 2023 Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
