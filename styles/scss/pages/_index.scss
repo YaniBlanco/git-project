@@ -224,10 +224,11 @@ object-fit: cover;
     }
 }
 
-@media (min-width: 660px) and (max-width: 1190px) {
+@media (min-width: 761px) and (max-width: 1100px) {
   
-    h4{
+  .texto-novedad h4{
         visibility: hidden;
+        display:hidden;
     }
 
     
