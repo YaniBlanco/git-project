@@ -35,28 +35,3 @@
 
 .footer-titulos ul li {
   margin-bottom: 0px;
-}
-
-.footer-titulos ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-titulos p {
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-@media (max-width: 767px) {
-  .col {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
-.footer-derechos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px;
-}/*# sourceMappingURL=footer.css.map */

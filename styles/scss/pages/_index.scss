@@ -85,10 +85,11 @@ height: auto;
 .seccion-elegidos {
     width: 100vw;
     height: auto;
+    display:grid;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    align-content: space-between;
+    
 }
 
 
@@ -137,8 +138,39 @@ height: auto;
    
 
 }
+.boton-promo{
+    background-color: rgb(219, 215, 212);
+    width: 100vw;
+    height: auto;
+    margin-bottom: 10px;
+      
+}
+.boton-promo a{
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: 10;
+    text-decoration: none;
+    color: rgb(107, 102, 100);
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Hachi Maru Pop', cursive;
+   
+}
+.boton-promo a:hover{
+        
+    background-color: rgb(204, 161, 136);
+    color: #faf7fc;
+    cursor: pointer;
+}
 
 
+.promo-tarjetas img{
+    width: 100vw;
+    height: auto;
+    display: block;
+object-fit: cover;
+}
 @media (min-width: 375px) and (max-width: 660px) {
     .carr-bienvenida {
     

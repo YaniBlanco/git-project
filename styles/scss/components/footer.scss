@@ -1,4 +1,33 @@
 
-    
+.contenedor-footer{
+   background-color: rgb(233, 231, 231);
+    width: 100vw;
+    height:130px;
+    margin-top:10px;
+}
 
+ .titulo-footer{
+    color:rgb(75, 73, 73);
+    display: flex;
+justify-content: center;
 
+ } 
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    color:black;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+
+.redes-sociales{
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+.redes-sociales i{
+
+    font-size: 40px;
+    padding:0 20px 0 20px;
+}
