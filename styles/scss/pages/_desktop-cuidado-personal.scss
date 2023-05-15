@@ -1,0 +1,60 @@
+
+.contenedor-secciones{
+    display: inline-flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+}
+.titulo-cuidado h2{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(218, 216, 216);
+}
+
+.accesorios{
+display:inline-flex;
+width: 100vw;
+
+}
+
+
+.accesorios{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    padding: 30px;
+    background-color: rgba(240, 248, 255, 0.644);
+    transition: all 0.4s ease-in-out 0.2s;
+
+
+}
+.articulo-brochas{
+    width: 100vw;
+    height: 500px;
+    margin-top: 40px;
+    background-color: rgb(237, 232, 238);
+    padding: 10px;
+    background-image: url(/img/Diseño\ sin\ título\ \(11\).png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+
+
+}
+.articulo-brochas h2, h3{
+    display: flex;
+    
+    justify-content: center;
+}
+
