@@ -1,0 +1,17 @@
+.pagina-en-construccion{
+    background-color: grey;
+    width: auto;
+    height: 100vh;
+}
+.pagina-en-construccion h2{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.644);
+    transition: all 0.4s ease-in-out 0.2s;
+}
