@@ -186,14 +186,14 @@
   justify-content: center;
   align-self: center;
   padding: 20px;
-  margin-left: 200px;
-
+  margin-left: 300px;
+text-justify: justify;
 }
 
 .perfumes-para-oficina {
-  background-image: url("/img/oficina-virtual.jpeg");
+  background-image: linear-gradient(to left,rgb(174, 236, 223),rgb(187, 183, 176));
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   width: 100vw;
   height: 600px;
   object-fit: cover;

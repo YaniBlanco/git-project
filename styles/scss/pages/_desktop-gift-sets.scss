@@ -1,17 +1,78 @@
-.pagina-en-construccion{
-    background-color: grey;
-    width: auto;
-    height: 100vh;
+.container-seccion-regalos {
+width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.pagina-en-construccion h2{
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
+.container-seccion-regalos h2 {
+
+    display: grid;
+    width: 100vw;
+    background-color: rgba(2, 2, 2, 0.979);
+    font-size: 20px;
+    color: rgb(251, 251, 252);
     padding: 30px;
     text-align: center;
-    background-color: rgba(240, 248, 255, 0.644);
-    transition: all 0.4s ease-in-out 0.2s;
+    margin: 30px;
+
+}
+.img-gift-sets{
+    display: flex;
+   width: 100vw;
+   height: auto;
+   object-fit:fill;
+   margin: auto;
+   justify-content: center;
+}
+
+.regalos-personalizados {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+     gap:50px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+}
+
+.regalo-personalizado {
+    width: 200px;
+    height: 250px;
+    border-bottom: 10px solid #eba6df;
+    background-color: rgb(228, 213, 236);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    justify-self: center;
+}
+
+.regalo-personalizado h2 {
+    font-size: 2rem;
+}
+
+.regalo-personalizado p {
+    font-size: 1.5rem;
+}
+
+.regalo-personalizado i{
+    font-size: 4rem;
+    margin-top: 38px;
+}
+
+.img-regalos-personalizados{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:50px;
+display: inline-flex;
+    flex-direction: row;
 }
