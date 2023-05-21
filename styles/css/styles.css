@@ -257,13 +257,18 @@ ol {
 
 .centrado {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 28%;
   font-size: 40px;
   padding: 30px;
   background-color: rgba(240, 248, 255, 0.658);
-  transition: all 0.4s ease-in-out 0.2s;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.centrado:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(48, 46, 46, 0.4);
+  background-color: rgb(240, 215, 226);
 }
 
 .articulo-brochas {
@@ -447,7 +452,7 @@ ol {
 
 .articulo-fragancias {
   width: 100vw;
-  height: 600px;
+  height: auto;
 }
 
 .articulo-fragancias h2 {
@@ -455,23 +460,11 @@ ol {
   background-color: rgb(218, 216, 216);
   display: flex;
   margin-top: 40px;
+  padding: 10px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-}
-
-.articulo-fragancias h3 {
-  width: 900px;
-  background-color: rgba(239, 243, 242, 0.7176470588);
-  font-size: 1.2rem;
-  display: flex;
-  margin-top: 10px;
-  align-items: center;
-  justify-content: center;
+  justify-items: center;
   align-self: center;
-  padding: 20px;
-  margin-left: 300px;
-  text-justify: justify;
 }
 
 .perfumes-para-oficina {
@@ -479,7 +472,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center center;
   width: 100vw;
-  height: 600px;
+  height: auto;
   object-fit: cover;
   align-items: center;
   align-content: center;
@@ -487,13 +480,24 @@ ol {
   justify-self: center;
 }
 
+.perfumes-para-oficina h3 {
+  width: 100vw;
+  background-color: rgba(239, 243, 242, 0.7176470588);
+  font-size: 1.2rem;
+  display: flex;
+  margin-top: 10px;
+  padding: 40px;
+  text-align: center;
+  text-justify: justify;
+}
+
 .perfumes-para-oficina-opciones {
   display: inline-grid;
   width: 100%;
   height: auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-  gap: 1em;
+  grid-gap: 20px;
+  gap: 20px;
   justify-self: center;
   justify-items: center;
   margin: 20px;
@@ -585,6 +589,74 @@ ol {
   font-size: 2.5rem;
 }
 
+.boton-ir-arriba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.boton-ir-arriba a {
+  display: flex;
+  float: right;
+  font-size: 1rem;
+  border: none;
+  margin: 30px;
+  background-color: #8f8888;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.boton-ir-arriba a:hover {
+  color: black;
+  background-color: #dad3d3;
+}
+
+@media (min-width: 375px) and (max-width: 660px) {
+  .titulo-fragancias {
+    margin-top: 100px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .perfumes-para-oficina {
+    display: grid;
+    width: 100vw;
+    height: auto;
+  }
+  .perfumes-para-oficina-opciones img {
+    width: 130px;
+    height: 175px;
+    object-fit: fill;
+  }
+  .perfumes-para-oficina h3 {
+    width: 100vw;
+    background-color: rgba(239, 243, 242, 0.7176470588);
+    font-size: 1rem;
+    padding: 50px;
+    display: flex;
+  }
+  .articulo-fragancias h2 {
+    width: 100vw;
+    background-color: rgba(239, 243, 242, 0.7176470588);
+    font-size: 1.4rem;
+    padding: 20px;
+    margin-left: 30px;
+  }
+  .contenedor-perfumes-regulares {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+  }
+  .imperdibles-de-octubre h2 {
+    width: 100vw;
+    font-size: 1.8rem;
+    margin-bottom: -30px;
+  }
+}
 .container-seccion-regalos {
   width: 100vw;
   display: grid;
