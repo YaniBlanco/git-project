@@ -200,8 +200,8 @@
   padding: 40px;
   text-align: center;
   text-justify: justify;
-  
- 
+
+
 
 
 }
@@ -327,7 +327,7 @@
 
 }
 
-.boton-ir-arriba a{
+.boton-ir-arriba a {
   display: flex;
   float: right;
   font-size: 1rem;
@@ -345,62 +345,124 @@
   color: black;
   background-color: #dad3d3;
 }
+
 @media (min-width: 375px) and (max-width: 660px) {
 
 
-.titulo-fragancias{
-margin-top:100px;
+  .titulo-fragancias {
+    margin-top: 100px;
 
-}
-.cards-container{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  }
 
-}
-
-
-.perfumes-para-oficina{
-  display: grid;
-  width: 100vw;
-  height: auto;
-}
-
-
-.perfumes-para-oficina-opciones img {
-  width: 130px;
-  height: 175px;
- object-fit: fill;
-  
-}
-.perfumes-para-oficina h3{
-  width: 100vw;
-  background-color: #eff3f2b7;
-  font-size: 1rem;
-  padding: 50px;
-  display: flex;
-
-}
-.articulo-fragancias h2{
-  width: 100vw;
-  background-color: #eff3f2b7;
-  font-size: 1.4rem;
-  padding: 20px;
-  margin-left: 30px;
-
-}
-.contenedor-perfumes-regulares {
+  .cards-container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-  margin-top: 40px;
-}
+    grid-gap: 20px;
+
+  }
+
+  .card {
+    justify-self: center;
+    height: 380px;
+    width: 180px;
+  }
+
+  .card-texto a {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .card-fr img {
+    width: 100%;
+    height: 140px;
+    margin-top: 25px;
+    object-fit: contain;
+  }
+
+  .perfumes-para-oficina {
+    display: grid;
+    width: 100vw;
+    height: auto;
+  }
 
 
-.imperdibles-de-octubre h2{
-width: 100vw;
-font-size: 1.8rem;
-margin-bottom: -30px;
-}
+  .perfumes-para-oficina-opciones img {
+    width: 90px;
+    height: 95px;
+    object-fit: contain;
+
+  }
+
+  .perfumes-para-oficina h3 {
+    width: 100vw;
+    background-color: #eff3f2b7;
+    font-size: 1rem;
+    padding: 50px;
+    display: flex;
+
+  }
+
+  .articulo-fragancias h2 {
+    width: 100vw;
+    background-color: #eff3f2b7;
+    font-size: 1.4rem;
+    padding: 20px;
+    margin-left: 30px;
+
+  }
+
+  .contenedor-perfumes-regulares {
+    display: grid;
+    background-color: rgba(213, 231, 186, 0.562);
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+  }
 
 
+  .imperdibles-de-octubre h2 {
+    width: 100vw;
+    font-size: 1.8rem;
 
+  }
+
+
+  .perf-regulares {
+    background-color: rgb(252, 252, 252);
+    width: 290px;
+    height: 330px;
+  }
+
+  .perf-reg img {
+    width: 100px;
+    height: 130px;
+    object-fit: contain;
+    margin-top: 20px;
+
+  }
+
+  .perf-texto h3 {
+    font-size: 0.8em;
+    margin-top: 10px;
+    padding: 2px;
+
+  }
+
+
+  .perf-texto a {
+    width: 140px;
+    height: 60px;
+
+  }
+
+
+  .contenedor-video-fragancias .video-fragancias1 {
+    height: 200px;
+  }
+
+  .video-fragancias img {
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: -20px;
+  }
 }
