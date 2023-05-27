@@ -33,53 +33,51 @@
 
 }
 
-.atencion-personalizada {
-    width: 100vw;
-    height: auto;
-    margin-top: 20px;
+.atencion-personalizada-container {
+    height: 400px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2, 1fr;
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 30px;
+
+
 }
 
-.atencion-personalizada img {
-    width: auto;
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 /span 2;
+
+}
+
+.item1 img {
     object-fit: contain;
-    grid-row-start: 1;
-    padding: 20px;
-    border-radius: 30px;
+    height: 320px;
 }
 
-.atencion-personalizada p {
-    font-size: 1.9rem;
+.item2 {
+    grid-column: 5/ span 6;
+    grid-row: 1;
+    font-size: 1.7rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+
 }
 
-.atencion-personalizada i {
+.item3 {
+
     font-size: 4rem;
     background-color: rgb(231, 229, 229);
-    margin-left: 130px;
-    padding: 60px;
+    padding: 20px;
     cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    grid-column: 5 / span 6;
+    grid-row: 2;
 
 }
 
-.atencion-personalizada h2 {
-    font-size: 1.8rem;
-    grid-column-start: 3;
-    margin-top: -300px;
-    margin-left: 155px;
 
-}
 
 .contenedor-cosmetica-productos {
 
@@ -94,15 +92,15 @@
     justify-self: center;
     align-items: center;
     width: 100vw;
-    height: 400px;
+    height: auto;
     padding: 30px;
 }
 
 .tarjeta-cosmetica {
     display: grid;
     background-color: rgb(252, 252, 252);
-    width: 240px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border: 0.8px solid;
     border-color: rgb(160, 158, 158);
     text-align: center;
@@ -114,7 +112,7 @@
 }
 
 .tarjeta-cosmetica img {
-    width: 250px;
+    width: 220px;
     height: 300px;
     border-radius: 800px;
     object-fit: fill;
@@ -141,7 +139,7 @@
 
 
 .productos-cosmetica {
-    background-color: rgb(252, 253, 249);
+    background-color: #dfd9d9;
     display: grid;
     width: 100vw;
     height: auto;
@@ -222,7 +220,52 @@
     color: #f8f8f8;
 }
 
-@media (min-width: 375px) and (max-width: 660px) {
+@media (min-width: 601px) and (max-width: 850px) {
+
+
+    .item1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    .item2 {
+        grid-column: 3/ span 6;
+        grid-row: 1;
+    }
+
+    .item3 {
+        grid-column: 3 / span 6;
+        grid-row: 2;
+
+    }
+
+    .contenedor-cosmetica-productos {
+        margin-top: 120px;
+          width: auto; 
+    }
+   
+
+    .contenedor-tarjetas-cosmetica {
+
+        width: 100vw;
+
+
+    }
+
+    .productos-cosmetica {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .tarjeta-cosmetica {
+        margin: 10px;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
 
 
     .titulo-cosmetica {
@@ -234,18 +277,50 @@
     }
 
 
-    .atencion-personalizada img {
+    .item1 {
         display: none;
         visibility: hidden;
     }
 
-    .atencion-personalizada {
 
 
+    .contenedor-tarjetas-cosmetica {
 
-        display: none;
-        visibility: hidden;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100vw;
+        height: auto;
 
     }
 
+    .tarjeta-cosmetica {
+        margin: 20px;
+    }
+
+   
+
+    .item2 {
+        grid-column: 3/ span 6;
+        grid-row: 1;
+    }
+
+    .item3 {
+        grid-column: 3 / span 6;
+        grid-row: 2;
+
+    }
+
+    .contenedor-cosmetica-productos {
+        margin-top: 190px;
+    }
+
+    .productos-cosmetica {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+   
+    }
+.tarj-cosm{
+    margin-left: 100px;
+}
 }
