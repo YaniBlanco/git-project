@@ -822,10 +822,11 @@ input[type=submit]:hover {
     margin-bottom: -20px;
   }
 }
-.titulo-fragancias h3 {
+.titulo-secundario h3 {
   background-color: rgb(219, 217, 217);
-  margin-top: 35px;
-  margin-bottom: -10px;
+  margin-top: 5px;
+  padding: 30px;
+  text-align: center;
   color: black;
 }
 
@@ -835,6 +836,10 @@ input[type=submit]:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.seccion-regalos img {
+  width: 500px;
 }
 
 .container-seccion-regalos h2 {
@@ -850,10 +855,8 @@ input[type=submit]:hover {
 
 .img-gift-sets {
   display: flex;
-  width: 100vw;
+  width: auto;
   height: auto;
-  object-fit: fill;
-  margin: auto;
   justify-content: center;
 }
 
@@ -904,6 +907,26 @@ input[type=submit]:hover {
   flex-direction: row;
 }
 
+@media (min-width: 375px) and (max-width: 660px) {
+  .regalos-personalizados {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .regalo-personalizado {
+    width: 280px;
+    height: 250px;
+    border-bottom: 20px solid #e96bd4;
+    background-color: rgb(245, 204, 236);
+  }
+  .img-regalos-personalizados {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-gift-sets {
+    display: none;
+    visibility: hidden;
+  }
+}
 .carr-bienvenida {
   width: 100vw;
   height: auto;
@@ -1246,6 +1269,7 @@ nav {
   transition: all 0.25s ease;
   border-radius: 10px;
   justify-self: center;
+  margin-top: 20px;
 }
 
 .tarjeta1:hover {
