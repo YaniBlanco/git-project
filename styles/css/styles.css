@@ -933,11 +933,6 @@ input[type=submit]:hover {
   display: flex;
 }
 
-.imagen-bienvenida img {
-  width: 100vw;
-  height: auto;
-}
-
 .titulo-novedad-mes {
   width: 100vw;
   background-color: rgba(203, 207, 207, 0.63);
@@ -968,7 +963,7 @@ input[type=submit]:hover {
   width: 600px;
   margin-left: 50px;
   margin-top: 20px;
-  padding: 60px;
+  padding: 10px;
 }
 
 .novedad-titulo {
@@ -1223,6 +1218,10 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 10px;
+}
+
+.carousel-inner {
+  margin-top: 10px;
 }
 
 @media (min-width: 375px) and (max-width: 660px) {
